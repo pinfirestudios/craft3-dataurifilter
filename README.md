@@ -1,12 +1,13 @@
 # dataurifilter plugin for Craft CMS 3.x
 
-Adds a dataUri filter to encode the file contents to work as a data URI
+Adds a dataUri filter to encode the file contents to work as a data URI.  Utilizes 
+the following, existing TWIG filter: [TwigExtension-DataUri](https://github.com/romainneutron/TwigExtension-DataUri).
 
-![Screenshot](resources/img/plugin-logo.png)
+This plugin just provides a wrapper to get it loaded into Craft.
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0-beta.23 or later.
+This plugin requires Craft CMS 3.0.0 or later.
 
 ## Installation
 
@@ -18,26 +19,10 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require jcherniak/dataurifilter
+        composer require pinfirestudios/dataurifilter
 
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for dataurifilter.
+3. In the Control Panel, go to Settings → Plugins and click the “Install” button for "Data URI Twig Filter".
 
 ## dataurifilter Overview
 
--Insert text here-
-
-## Configuring dataurifilter
-
--Insert text here-
-
-## Using dataurifilter
-
--Insert text here-
-
-## dataurifilter Roadmap
-
-Some things to do, and ideas for potential features:
-
-* Release it
-
-Brought to you by [Pinfire Studios](www.pinfirestudios.com)
+See [TwigExtension-DataUri](https://github.com/romainneutron/TwigExtension-DataUri).
