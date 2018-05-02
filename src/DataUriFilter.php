@@ -10,8 +10,6 @@
 
 namespace pinfirestudios\dataurifilter;
 
-use pinfirestudios\dataurifilter\twigextensions\DataurifilterTwigExtension;
-
 use Craft;
 use craft\base\Plugin;
 use craft\services\Plugins;
@@ -20,14 +18,14 @@ use craft\events\PluginEvent;
 use yii\base\Event;
 
 /**
- * Class Dataurifilter
+ * Class DataUriFilter
  *
  * @author    Pinfire Studios
  * @package   Dataurifilter
  * @since     1.0.0
  *
  */
-class Dataurifilter extends Plugin
+class DataUriFilter extends Plugin
 {
     // Static Properties
     // =========================================================================
@@ -56,7 +54,7 @@ class Dataurifilter extends Plugin
         parent::init();
         self::$plugin = $this;
 
-        Craft::$app->view->registerTwigExtension(new DataurifilterTwigExtension());
+        Craft::$app->view->registerTwigExtension(new \DataURI\TwigExtension);
 
         Event::on(
             Plugins::class,
