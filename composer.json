@@ -1,5 +1,5 @@
 {
-    "name": "pinfirestudios/dataurifilter",
+    "name": "pinfirestudios/craft3-dataurifilter",
     "description": "Adds a dataUri filter to encode the file contents to work as a data URI",
     "type": "craft-plugin",
     "version": "1.0.0",
