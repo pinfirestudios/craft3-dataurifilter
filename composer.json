@@ -25,6 +25,12 @@
         "craftcms/cms": "^3.0.0",
         "data-uri/twig-extension": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pinfirestudios/TwigExtension-DataUri"
+        }
+    ],
     "autoload": {
         "psr-4": {
           "pinfirestudios\\dataurifilter\\": "src/"
