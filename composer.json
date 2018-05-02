@@ -1,0 +1,40 @@
+{
+    "name": "pinfirestudios/dataurifilter",
+    "description": "Adds a dataUri filter to encode the file contents to work as a data URI",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "dataurifilter"
+    ],
+    "support": {
+        "docs": "https://github.com/pinfirestudios/dataurifilter/blob/master/README.md",
+        "issues": "https://github.com/pinfirestudios/dataurifilter/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pinfire Studios",
+            "homepage": "http://www.pinfirestudios.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "pinfirestudios\\dataurifilter\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "dataurifilter",
+        "handle": "dataurifilter",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/pinfirestudios/dataurifilter/master/CHANGELOG.md",
+        "class": "pinfirestudios\\dataurifilter\\DataUriFilter"
+    }
+}
